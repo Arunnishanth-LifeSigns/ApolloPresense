@@ -1,0 +1,410 @@
+2025-10-24 08:44:59,339 WARN c.l.c.w.ConfigurationManager [main] Instance configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\config.properties
+2025-10-24 08:44:59,352 INFO c.l.c.w.ConfigurationManager [main] Master configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\master.properties
+2025-10-24 08:44:59,378 INFO DataReceiver [main] Data streaming to presense for Apollo Mysuru Patches starting... -- no ECG.
+2025-10-24 08:44:59,636 INFO DataReceiver [main] Restarting running patches for instance: Apollo_MQTT_Client
+2025-10-24 08:44:59,719 WARN WSReceiverThread [main] [ALWPZ] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:44:59,728 INFO PresenseProcessor [main] Using test URL for API endpoint
+2025-10-24 08:44:59,729 INFO PresenseProcessor [main] Writing data to file is disabled
+2025-10-24 08:44:59,729 INFO ServiceManager [main] Service assigned: prediction with provider: presense
+2025-10-24 08:44:59,729 WARN WSReceiverThread [main] [AMOOV] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:44:59,729 INFO ServiceManager [main] Service assigned: prediction with provider: presense
+2025-10-24 08:44:59,730 WARN WSReceiverThread [main] [AMOXA] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:44:59,730 INFO WSReceiverThread [ALWPZ] Thread [ALWPZ] starting.
+2025-10-24 08:44:59,731 INFO ServiceManager [main] Service assigned: prediction with provider: presense
+2025-10-24 08:44:59,731 INFO WSReceiverThread [AMOOV] Thread [AMOOV] starting.
+2025-10-24 08:44:59,733 INFO DataReceiver [main] Loaded Client ID from config: Apollo_MQTT_Client
+2025-10-24 08:44:59,733 INFO WSReceiverThread [AMOXA] Thread [AMOXA] starting.
+2025-10-24 08:44:59,740 INFO DataReceiver [main] MQTT Server: tcp://localhost:1883
+2025-10-24 08:45:00,186 INFO DataReceiver [main] MQTT Server Status: true
+2025-10-24 08:45:00,195 INFO DataReceiver [main] Subscription done.
+2025-10-24 08:45:00,199 INFO DataReceiver [main] Starting WebServer
+2025-10-24 08:45:00,473 INFO JettyServer [main] WebServer started at port: 8093
+2025-10-24 08:45:00,865 INFO AuthHelper [AMOXA] Token Obtained
+2025-10-24 08:45:00,865 INFO AuthHelper [ALWPZ] Token Obtained
+2025-10-24 08:45:00,865 INFO AuthHelper [AMOOV] Token Obtained
+2025-10-24 08:45:00,866 DEBUG WSReceiverThread [AMOXA] [AMOXA]: Token obtained
+2025-10-24 08:45:00,866 DEBUG WSReceiverThread [AMOOV] [AMOOV]: Token obtained
+2025-10-24 08:45:00,866 DEBUG WSReceiverThread [ALWPZ] [ALWPZ]: Token obtained
+2025-10-24 08:45:01,632 INFO WSReceiverThread [EventThread] [AMOOV]: socket connection established!
+2025-10-24 08:45:01,643 INFO WSReceiverThread [EventThread] [AMOOV] socket emitted, socket.connected true
+2025-10-24 08:45:01,644 INFO WSReceiverThread [EventThread] [ALWPZ]: socket connection established!
+2025-10-24 08:45:01,644 INFO WSReceiverThread [EventThread] [ALWPZ] socket emitted, socket.connected true
+2025-10-24 08:45:01,645 INFO WSReceiverThread [EventThread] [AMOXA]: socket connection established!
+2025-10-24 08:45:01,646 INFO WSReceiverThread [EventThread] [AMOXA] socket emitted, socket.connected true
+2025-10-24 08:45:03,210 INFO WSReceiverThread [EventThread] [ALWPZ] patientRef successfully constructed and set: CF1754318012-medexUID|12997f06-7a5a-4ccb-831a-ec2751a70050-ADM631912563 true
+2025-10-24 08:45:03,214 INFO WSReceiverThread [EventThread] [AMOOV] patientRef successfully constructed and set: CF1754318012-medexUID|12997f06-7a5a-4ccb-831a-ec2751a70050-ADM631912563 true
+2025-10-24 08:45:03,216 INFO WSReceiverThread [EventThread] [AMOXA] patientRef successfully constructed and set: CF1754318012-medexUID|12997f06-7a5a-4ccb-831a-ec2751a70050-ADM631912563 true
+2025-10-24 08:46:55,169 WARN c.l.c.w.ConfigurationManager [main] Instance configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\config.properties
+2025-10-24 08:46:55,175 INFO c.l.c.w.ConfigurationManager [main] Master configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\master.properties
+2025-10-24 08:46:55,215 INFO DataReceiver [main] Data streaming to presense for Apollo Mysuru Patches starting... -- no ECG.
+2025-10-24 08:46:55,576 INFO DataReceiver [main] Restarting running patches for instance: Apollo_MQTT_Client
+2025-10-24 08:46:55,607 INFO DataReceiver [main] Loaded Client ID from config: Apollo_MQTT_Client
+2025-10-24 08:46:55,617 INFO DataReceiver [main] MQTT Server: tcp://localhost:1883
+2025-10-24 08:46:56,071 INFO DataReceiver [main] MQTT Server Status: true
+2025-10-24 08:46:56,081 INFO DataReceiver [main] Subscription done.
+2025-10-24 08:46:56,086 INFO DataReceiver [main] Starting WebServer
+2025-10-24 08:46:56,438 INFO JettyServer [main] WebServer started at port: 8093
+2025-10-24 08:47:17,388 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:47:17,392 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "ALECO", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|9eb596d6-5cfb-488f-ab46-584edc1dbcfe"}
+2025-10-24 08:47:17,465 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALECO] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:47:17,473 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] Using test URL for API endpoint
+2025-10-24 08:47:17,475 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] Writing data to file is disabled
+2025-10-24 08:47:17,475 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:47:17,477 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:47:17,478 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "ALDND", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|12997f06-7a5a-4ccb-831a-ec2751a70050"}
+2025-10-24 08:47:17,478 INFO WSReceiverThread [ALECO] Thread [ALECO] starting.
+2025-10-24 08:47:17,489 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALDND] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:47:17,491 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:47:17,492 INFO WSReceiverThread [ALDND] Thread [ALDND] starting.
+2025-10-24 08:47:17,503 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:47:17,505 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "AMCZW", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|3137c90c-d024-4a08-b114-6d5013f4aa30"}
+2025-10-24 08:47:17,516 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMCZW] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:47:17,517 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:47:17,518 INFO WSReceiverThread [AMCZW] Thread [AMCZW] starting.
+2025-10-24 08:47:18,485 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:47:18,486 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "AMJYW", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|6a451dca-ce7c-4518-99c4-80e9495503ed"}
+2025-10-24 08:47:18,502 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMJYW] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:47:18,512 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:47:18,522 INFO WSReceiverThread [AMJYW] Thread [AMJYW] starting.
+2025-10-24 08:47:18,754 INFO AuthHelper [AMCZW] Token Obtained
+2025-10-24 08:47:18,755 INFO AuthHelper [ALECO] Token Obtained
+2025-10-24 08:47:18,755 INFO AuthHelper [ALDND] Token Obtained
+2025-10-24 08:47:18,756 DEBUG WSReceiverThread [AMCZW] [AMCZW]: Token obtained
+2025-10-24 08:47:18,756 DEBUG WSReceiverThread [ALDND] [ALDND]: Token obtained
+2025-10-24 08:47:18,756 DEBUG WSReceiverThread [ALECO] [ALECO]: Token obtained
+2025-10-24 08:47:18,812 INFO AuthHelper [AMJYW] Token Obtained
+2025-10-24 08:47:18,814 DEBUG WSReceiverThread [AMJYW] [AMJYW]: Token obtained
+2025-10-24 08:47:19,399 INFO WSReceiverThread [EventThread] [ALDND]: socket connection established!
+2025-10-24 08:47:19,405 INFO WSReceiverThread [EventThread] [ALDND] socket emitted, socket.connected true
+2025-10-24 08:47:19,407 INFO WSReceiverThread [EventThread] [AMCZW]: socket connection established!
+2025-10-24 08:47:19,408 INFO WSReceiverThread [EventThread] [AMCZW] socket emitted, socket.connected true
+2025-10-24 08:47:19,409 INFO WSReceiverThread [EventThread] [ALECO]: socket connection established!
+2025-10-24 08:47:19,409 INFO WSReceiverThread [EventThread] [ALECO] socket emitted, socket.connected true
+2025-10-24 08:47:19,410 INFO WSReceiverThread [EventThread] [AMJYW]: socket connection established!
+2025-10-24 08:47:19,411 INFO WSReceiverThread [EventThread] [AMJYW] socket emitted, socket.connected true
+2025-10-24 08:47:48,855 WARN WSReceiverThread [ALECO] 0 messages received for PatchId: [ALECO]: Socket connection: true, connectCount
+2025-10-24 08:47:48,855 WARN WSReceiverThread [AMCZW] 0 messages received for PatchId: [AMCZW]: Socket connection: true, connectCount
+2025-10-24 08:47:48,855 WARN WSReceiverThread [ALDND] 0 messages received for PatchId: [ALDND]: Socket connection: true, connectCount
+2025-10-24 08:47:48,855 WARN WSReceiverThread [AMJYW] 0 messages received for PatchId: [AMJYW]: Socket connection: true, connectCount
+2025-10-24 08:47:56,441 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 08:47:56,443 INFO DataReceiver [main] All patches running!! 
+2025-10-24 08:47:56,444 INFO DataReceiver [main] 4/4 patches have active socket connection
+2025-10-24 08:50:21,359 WARN c.l.c.w.ConfigurationManager [main] Instance configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\config.properties
+2025-10-24 08:50:21,363 INFO c.l.c.w.ConfigurationManager [main] Master configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\master.properties
+2025-10-24 08:50:21,404 INFO DataReceiver [main] Data streaming to presense for Apollo Mysuru Patches starting... -- no ECG.
+2025-10-24 08:50:21,727 INFO DataReceiver [main] Restarting running patches for instance: Apollo_MQTT_Client
+2025-10-24 08:50:21,756 INFO DataReceiver [main] Loaded Client ID from config: Apollo_MQTT_Client
+2025-10-24 08:50:21,761 INFO DataReceiver [main] MQTT Server: tcp://localhost:1883
+2025-10-24 08:50:22,208 INFO DataReceiver [main] MQTT Server Status: true
+2025-10-24 08:50:22,220 INFO DataReceiver [main] Subscription done.
+2025-10-24 08:50:22,224 INFO DataReceiver [main] Starting WebServer
+2025-10-24 08:50:22,544 INFO JettyServer [main] WebServer started at port: 8093
+2025-10-24 08:50:39,589 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:50:39,592 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "AMORN", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|9eb596d6-5cfb-488f-ab46-584edc1dbcfe"}
+2025-10-24 08:50:39,670 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMORN] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:50:39,681 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] Using test URL for API endpoint
+2025-10-24 08:50:39,682 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] Writing data to file is disabled
+2025-10-24 08:50:39,682 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:50:39,684 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:50:39,684 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "AMCPR", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|12997f06-7a5a-4ccb-831a-ec2751a70050"}
+2025-10-24 08:50:39,685 INFO WSReceiverThread [AMORN] Thread [AMORN] starting.
+2025-10-24 08:50:39,697 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMCPR] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:50:39,698 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:50:39,701 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:50:39,702 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "ALDYL", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|3137c90c-d024-4a08-b114-6d5013f4aa30"}
+2025-10-24 08:50:39,701 INFO WSReceiverThread [AMCPR] Thread [AMCPR] starting.
+2025-10-24 08:50:39,712 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALDYL] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:50:39,713 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:50:39,716 INFO WSReceiverThread [ALDYL] Thread [ALDYL] starting.
+2025-10-24 08:50:40,916 INFO AuthHelper [AMORN] Token Obtained
+2025-10-24 08:50:40,916 INFO AuthHelper [ALDYL] Token Obtained
+2025-10-24 08:50:40,916 INFO AuthHelper [AMCPR] Token Obtained
+2025-10-24 08:50:40,916 DEBUG WSReceiverThread [AMORN] [AMORN]: Token obtained
+2025-10-24 08:50:40,916 DEBUG WSReceiverThread [AMCPR] [AMCPR]: Token obtained
+2025-10-24 08:50:40,917 DEBUG WSReceiverThread [ALDYL] [ALDYL]: Token obtained
+2025-10-24 08:50:41,614 INFO WSReceiverThread [EventThread] [AMCPR]: socket connection established!
+2025-10-24 08:50:41,621 INFO WSReceiverThread [EventThread] [AMCPR] socket emitted, socket.connected true
+2025-10-24 08:50:41,622 INFO WSReceiverThread [EventThread] [ALDYL]: socket connection established!
+2025-10-24 08:50:41,622 INFO WSReceiverThread [EventThread] [ALDYL] socket emitted, socket.connected true
+2025-10-24 08:50:41,623 INFO WSReceiverThread [EventThread] [AMORN]: socket connection established!
+2025-10-24 08:50:41,623 INFO WSReceiverThread [EventThread] [AMORN] socket emitted, socket.connected true
+2025-10-24 08:50:41,826 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:50:41,827 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "ALLGS", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|6a451dca-ce7c-4518-99c4-80e9495503ed"}
+2025-10-24 08:50:41,840 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALLGS] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:50:41,841 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:50:41,843 INFO WSReceiverThread [ALLGS] Thread [ALLGS] starting.
+2025-10-24 08:50:41,952 INFO AuthHelper [ALLGS] Token Obtained
+2025-10-24 08:50:41,952 DEBUG WSReceiverThread [ALLGS] [ALLGS]: Token obtained
+2025-10-24 08:50:42,064 INFO WSReceiverThread [EventThread] [AMCPR] patientRef successfully constructed and set: CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764 true
+2025-10-24 08:50:42,067 INFO WSReceiverThread [EventThread] [ALDYL] patientRef successfully constructed and set: CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764 true
+2025-10-24 08:50:42,069 INFO WSReceiverThread [EventThread] [AMORN] patientRef successfully constructed and set: CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764 true
+2025-10-24 08:50:42,366 INFO WSReceiverThread [EventThread] [ALLGS]: socket connection established!
+2025-10-24 08:50:42,369 INFO WSReceiverThread [EventThread] [ALLGS] socket emitted, socket.connected true
+2025-10-24 08:50:47,015 INFO WSReceiverThread [EventThread] [ALLGS] patientRef successfully constructed and set: CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876 true
+2025-10-24 08:51:09,745 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276042032316,"s3_object_key":"vitals/2025/10/24/03/20/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276042032316.json"}
+2025-10-24 08:51:10,009 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276042032316,"s3_object_key":"vitals/2025/10/24/03/20/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276042032316.json"}
+2025-10-24 08:51:10,239 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276042032316,"s3_object_key":"vitals/2025/10/24/03/20/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276042032316.json"}
+2025-10-24 08:51:13,551 INFO MSGLOG [EventThread] [AMCPR] Data Sent to API successfully with status: 201
+2025-10-24 08:51:13,553 INFO MSGLOG [EventThread] [ALDYL] Data Sent to API successfully with status: 201
+2025-10-24 08:51:13,553 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 08:51:14,320 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276046892357,"s3_object_key":"vitals/2025/10/24/03/20/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276046892357.json"}
+2025-10-24 08:51:18,629 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:51:22,556 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 08:51:22,601 INFO DataReceiver [main] Persisted admissionId for patch: AMORN
+2025-10-24 08:51:22,610 INFO DataReceiver [main] Persisted admissionId for patch: ALLGS
+2025-10-24 08:51:22,619 INFO DataReceiver [main] Persisted admissionId for patch: ALDYL
+2025-10-24 08:51:22,628 INFO DataReceiver [main] Persisted admissionId for patch: AMCPR
+2025-10-24 08:51:22,629 INFO DataReceiver [main] All patches running!! 
+2025-10-24 08:51:22,629 INFO DataReceiver [main] 4/4 patches have active socket connection
+2025-10-24 08:51:40,863 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276073533489,"s3_object_key":"vitals/2025/10/24/03/21/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276073533489.json"}
+2025-10-24 08:51:41,138 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276073533489,"s3_object_key":"vitals/2025/10/24/03/21/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276073533489.json"}
+2025-10-24 08:51:41,405 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276073533489,"s3_object_key":"vitals/2025/10/24/03/21/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276073533489.json"}
+2025-10-24 08:51:45,045 INFO MSGLOG [EventThread] [AMCPR] Data Sent to API successfully with status: 201
+2025-10-24 08:51:45,048 INFO MSGLOG [EventThread] [ALDYL] Data Sent to API successfully with status: 201
+2025-10-24 08:51:45,050 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 08:51:45,980 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276078392412,"s3_object_key":"vitals/2025/10/24/03/21/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276078392412.json"}
+2025-10-24 08:51:50,003 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:52:12,525 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276105032094,"s3_object_key":"vitals/2025/10/24/03/21/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276105032094.json"}
+2025-10-24 08:52:12,788 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276105032094,"s3_object_key":"vitals/2025/10/24/03/21/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276105032094.json"}
+2025-10-24 08:52:12,998 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276105032094,"s3_object_key":"vitals/2025/10/24/03/21/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276105032094.json"}
+2025-10-24 08:52:15,922 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_action_apollo, QoS: 2
+2025-10-24 08:52:15,925 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {patchId: AMCPR, action: stop}
+2025-10-24 08:52:15,926 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] Interrupt [AMCPR] sending discharge message as Stop is true
+2025-10-24 08:52:15,926 INFO WSReceiverThread [AMCPR] Thread [AMCPR] interrupted.
+2025-10-24 08:52:15,929 INFO WSReceiverThread [AMCPR] Socket closed for patchId: AMCPR
+2025-10-24 08:52:15,935 WARN WSReceiverThread [EventThread] PatchId: AMCPR, socket disconnected!
+2025-10-24 08:52:15,936 WARN WSReceiverThread [EventThread] PatchId: ALDYL, socket disconnected!
+2025-10-24 08:52:15,937 WARN WSReceiverThread [EventThread] PatchId: AMORN, socket disconnected!
+2025-10-24 08:52:16,162 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] AMCPR (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276135,"s3_object_key":"vitals/1970/01/01/00/29/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276135.json"}
+2025-10-24 08:52:16,164 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] [AMCPR] Discharge message sent to API successfully with status: 201
+2025-10-24 08:52:16,164 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMCPR] Discharge Message Created. Data: {"FacilityId":"CF1754318012","PatchId":"AMCPR","source":"Arun-Local","BiosensorStatus":"Discharged","patientRef":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","TimeStamp":1761276135}
+2025-10-24 08:52:16,165 INFO WSThreadManager [MQTT Call: Apollo_MQTT_Client] Thread [AMCPR] stopped
+2025-10-24 08:52:17,538 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276109892324,"s3_object_key":"vitals/2025/10/24/03/21/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276109892324.json"}
+2025-10-24 08:52:21,608 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:52:22,644 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 08:52:22,672 INFO DataReceiver [main] All patches running!! 
+2025-10-24 08:52:22,672 INFO DataReceiver [main] 1/3 patches have active socket connection
+2025-10-24 08:52:48,814 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276141392179,"s3_object_key":"vitals/2025/10/24/03/22/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276141392179.json"}
+2025-10-24 08:52:53,041 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:53:11,012 WARN WSReceiverThread [AMORN] [AMORN]: No new messages received. MsgCount: 21, socket: false.
+2025-10-24 08:53:11,012 WARN WSReceiverThread [ALDYL] [ALDYL]: No new messages received. MsgCount: 21, socket: false.
+2025-10-24 08:53:20,482 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276172892379,"s3_object_key":"vitals/2025/10/24/03/22/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276172892379.json"}
+2025-10-24 08:53:22,676 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 08:53:22,701 INFO DataReceiver [main] All patches running!! 
+2025-10-24 08:53:22,702 INFO DataReceiver [main] 1/3 patches have active socket connection
+2025-10-24 08:53:24,641 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:53:41,017 WARN WSReceiverThread [AMORN] [AMORN]: No new messages received. MsgCount: 21, socket: false.
+2025-10-24 08:53:41,017 WARN WSReceiverThread [ALDYL] [ALDYL]: No new messages received. MsgCount: 21, socket: false.
+2025-10-24 08:53:51,855 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276204392375,"s3_object_key":"vitals/2025/10/24/03/23/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276204392375.json"}
+2025-10-24 08:53:56,009 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:54:11,019 WARN WSReceiverThread [AMORN] [AMORN]: No new messages received. MsgCount: 21, socket: false.
+2025-10-24 08:54:11,033 WARN WSReceiverThread [ALDYL] [ALDYL]: No new messages received. MsgCount: 21, socket: false.
+2025-10-24 08:54:17,403 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_action_apollo, QoS: 2
+2025-10-24 08:54:17,404 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {patchId: ALDYL, action: stop}
+2025-10-24 08:54:17,404 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] Interrupt [ALDYL] sending discharge message as Stop is true
+2025-10-24 08:54:17,405 INFO WSReceiverThread [ALDYL] Thread [ALDYL] interrupted.
+2025-10-24 08:54:17,406 INFO WSReceiverThread [ALDYL] Socket closed for patchId: ALDYL
+2025-10-24 08:54:17,666 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] ALDYL (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276257,"s3_object_key":"vitals/1970/01/01/00/29/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276257.json"}
+2025-10-24 08:54:17,669 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] [ALDYL] Discharge message sent to API successfully with status: 201
+2025-10-24 08:54:17,670 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALDYL] Discharge Message Created. Data: {"FacilityId":"CF1754318012","PatchId":"ALDYL","source":"Arun-Local","BiosensorStatus":"Discharged","patientRef":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","TimeStamp":1761276257}
+2025-10-24 08:54:17,670 INFO WSThreadManager [MQTT Call: Apollo_MQTT_Client] Thread [ALDYL] stopped
+2025-10-24 08:54:22,712 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 08:54:22,728 INFO DataReceiver [main] All patches running!! 
+2025-10-24 08:54:22,729 INFO DataReceiver [main] 1/2 patches have active socket connection
+2025-10-24 08:54:23,407 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276235892126,"s3_object_key":"vitals/2025/10/24/03/23/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276235892126.json"}
+2025-10-24 08:54:27,571 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:54:41,024 WARN WSReceiverThread [AMORN] [AMORN]: No new messages received. MsgCount: 21, socket: false.
+2025-10-24 08:54:41,025 INFO WSReceiverThread [AMORN] Disconnected for 149 seconds. Reconnecting...
+2025-10-24 08:54:41,026 INFO WSReceiverThread [AMORN] Interrupt [AMORN] not sending discharge message as Stop is false
+2025-10-24 08:54:41,028 INFO WSReceiverThread [AMORN] [AMORN] Initialized with constructed patientRef: CF1754318012-medexUID|9eb596d6-5cfb-488f-ab46-584edc1dbcfe-ADM1609022764
+2025-10-24 08:54:41,028 INFO ServiceManager [AMORN] Service assigned: prediction with provider: presense
+2025-10-24 08:54:41,030 INFO WSReceiverThread [AMORN] Socket closed for patchId: AMORN
+2025-10-24 08:54:41,030 INFO WSReceiverThread [AMORN] Thread [AMORN] starting.
+2025-10-24 08:54:41,319 INFO AuthHelper [AMORN] Token Obtained
+2025-10-24 08:54:41,320 DEBUG WSReceiverThread [AMORN] [AMORN]: Token obtained
+2025-10-24 08:54:41,729 INFO WSReceiverThread [EventThread] [AMORN]: socket connection established!
+2025-10-24 08:54:41,732 INFO WSReceiverThread [EventThread] [AMORN] socket emitted, socket.connected true
+2025-10-24 08:54:54,882 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276267392373,"s3_object_key":"vitals/2025/10/24/03/24/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276267392373.json"}
+2025-10-24 08:54:59,105 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:55:12,300 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276285032772,"s3_object_key":"vitals/2025/10/24/03/24/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276285032772.json"}
+2025-10-24 08:55:16,646 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 08:55:22,736 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 08:55:22,772 INFO DataReceiver [main] All patches running!! 
+2025-10-24 08:55:22,773 INFO DataReceiver [main] 2/2 patches have active socket connection
+2025-10-24 08:55:26,560 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276298892493,"s3_object_key":"vitals/2025/10/24/03/24/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276298892493.json"}
+2025-10-24 08:55:30,645 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:55:43,774 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276316533554,"s3_object_key":"vitals/2025/10/24/03/25/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276316533554.json"}
+2025-10-24 08:55:48,043 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 08:55:57,949 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276330392413,"s3_object_key":"vitals/2025/10/24/03/25/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276330392413.json"}
+2025-10-24 08:56:02,054 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:56:15,401 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276348032518,"s3_object_key":"vitals/2025/10/24/03/25/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276348032518.json"}
+2025-10-24 08:56:19,618 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 08:56:22,788 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 08:56:22,808 INFO DataReceiver [main] All patches running!! 
+2025-10-24 08:56:22,809 INFO DataReceiver [main] 2/2 patches have active socket connection
+2025-10-24 08:56:29,384 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276361892410,"s3_object_key":"vitals/2025/10/24/03/26/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276361892410.json"}
+2025-10-24 08:56:33,520 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 08:56:46,793 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276379532448,"s3_object_key":"vitals/2025/10/24/03/26/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276379532448.json"}
+2025-10-24 08:56:51,180 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 08:59:30,414 WARN c.l.c.w.ConfigurationManager [main] Instance configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\config.properties
+2025-10-24 08:59:30,415 INFO c.l.c.w.ConfigurationManager [main] Master configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\master.properties
+2025-10-24 08:59:30,432 INFO DataReceiver [main] Data streaming to presense for Apollo Mysuru Patches starting... -- no ECG.
+2025-10-24 08:59:30,595 INFO DataReceiver [main] Restarting running patches for instance: Apollo_MQTT_Client
+2025-10-24 08:59:30,606 INFO DataReceiver [main] Loaded Client ID from config: Apollo_MQTT_Client
+2025-10-24 08:59:30,609 INFO DataReceiver [main] MQTT Server: tcp://localhost:1883
+2025-10-24 08:59:30,982 INFO DataReceiver [main] MQTT Server Status: true
+2025-10-24 08:59:30,994 INFO DataReceiver [main] Subscription done.
+2025-10-24 08:59:31,001 INFO DataReceiver [main] Starting WebServer
+2025-10-24 08:59:31,146 INFO JettyServer [main] WebServer started at port: 8093
+2025-10-24 08:59:50,912 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:59:50,915 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "AMORN", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|9eb596d6-5cfb-488f-ab46-584edc1dbcfe"}
+2025-10-24 08:59:50,948 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMORN] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:59:50,957 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] Using test URL for API endpoint
+2025-10-24 08:59:50,959 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] Writing data to file is disabled
+2025-10-24 08:59:50,960 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:59:50,962 INFO WSReceiverThread [AMORN] Thread [AMORN] starting.
+2025-10-24 08:59:51,026 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:59:51,028 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "AMCPR", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|12997f06-7a5a-4ccb-831a-ec2751a70050"}
+2025-10-24 08:59:51,047 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMCPR] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:59:51,057 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:59:51,077 INFO WSReceiverThread [AMCPR] Thread [AMCPR] starting.
+2025-10-24 08:59:51,117 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:59:51,121 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "ALDYL", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|3137c90c-d024-4a08-b114-6d5013f4aa30"}
+2025-10-24 08:59:51,134 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALDYL] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:59:51,139 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:59:51,143 INFO WSReceiverThread [ALDYL] Thread [ALDYL] starting.
+2025-10-24 08:59:51,649 INFO AuthHelper [ALDYL] Token Obtained
+2025-10-24 08:59:51,649 INFO AuthHelper [AMORN] Token Obtained
+2025-10-24 08:59:51,649 INFO AuthHelper [AMCPR] Token Obtained
+2025-10-24 08:59:51,650 DEBUG WSReceiverThread [ALDYL] [ALDYL]: Token obtained
+2025-10-24 08:59:51,650 DEBUG WSReceiverThread [AMORN] [AMORN]: Token obtained
+2025-10-24 08:59:51,651 DEBUG WSReceiverThread [AMCPR] [AMCPR]: Token obtained
+2025-10-24 08:59:51,747 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_start_apollo, QoS: 0
+2025-10-24 08:59:51,748 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {"patchId": "ALLGS", "facilityId": "CF1754318012", "serviceId": "prediction", "providerId": "presense", "patientId": "medexUID|6a451dca-ce7c-4518-99c4-80e9495503ed"}
+2025-10-24 08:59:51,754 WARN WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALLGS] admissionId was not provided on initialization. Will attempt to construct patientRef from data packet.
+2025-10-24 08:59:51,755 INFO ServiceManager [MQTT Call: Apollo_MQTT_Client] Service assigned: prediction with provider: presense
+2025-10-24 08:59:51,756 INFO WSReceiverThread [ALLGS] Thread [ALLGS] starting.
+2025-10-24 08:59:51,871 INFO AuthHelper [ALLGS] Token Obtained
+2025-10-24 08:59:51,872 DEBUG WSReceiverThread [ALLGS] [ALLGS]: Token obtained
+2025-10-24 08:59:52,275 INFO WSReceiverThread [EventThread] [ALLGS]: socket connection established!
+2025-10-24 08:59:52,281 INFO WSReceiverThread [EventThread] [ALLGS] socket emitted, socket.connected true
+2025-10-24 08:59:52,283 INFO WSReceiverThread [EventThread] [AMORN]: socket connection established!
+2025-10-24 08:59:52,287 INFO WSReceiverThread [EventThread] [AMORN] socket emitted, socket.connected true
+2025-10-24 08:59:52,289 INFO WSReceiverThread [EventThread] [ALDYL]: socket connection established!
+2025-10-24 08:59:52,290 INFO WSReceiverThread [EventThread] [ALDYL] socket emitted, socket.connected true
+2025-10-24 08:59:52,290 INFO WSReceiverThread [EventThread] [AMCPR]: socket connection established!
+2025-10-24 08:59:52,292 INFO WSReceiverThread [EventThread] [AMCPR] socket emitted, socket.connected true
+2025-10-24 08:59:55,642 INFO WSReceiverThread [EventThread] [AMCPR] patientRef successfully constructed and set: CF1754318012-medexUID|1edd59da-9ab5-454a-9c2e-382ecf92319c-ADM326533415 true
+2025-10-24 08:59:55,649 INFO WSReceiverThread [EventThread] [AMORN] patientRef successfully constructed and set: CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764 true
+2025-10-24 08:59:55,653 INFO WSReceiverThread [EventThread] [ALDYL] patientRef successfully constructed and set: CF1754318012-medexUID|4184d560-9ebd-4ce4-98b2-2f9cdb944789-ADM1146014669 true
+2025-10-24 08:59:55,997 INFO WSReceiverThread [EventThread] [ALLGS] patientRef successfully constructed and set: CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876 true
+2025-10-24 09:00:23,041 INFO PresenseProcessor [EventThread] AMORN (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764","timestamp_received_us":1761276595532578,"s3_object_key":"vitals/2025/10/24/03/29/CF1754318012-medexUID|fbec285d-2642-438f-9424-efd175c41585-ADM1609022764/1761276595532578.json"}
+2025-10-24 09:00:23,310 INFO PresenseProcessor [EventThread] AMCPR (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|1edd59da-9ab5-454a-9c2e-382ecf92319c-ADM326533415","timestamp_received_us":1761276595556224,"s3_object_key":"vitals/2025/10/24/03/29/CF1754318012-medexUID|1edd59da-9ab5-454a-9c2e-382ecf92319c-ADM326533415/1761276595556224.json"}
+2025-10-24 09:00:23,563 INFO PresenseProcessor [EventThread] ALDYL (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|4184d560-9ebd-4ce4-98b2-2f9cdb944789-ADM1146014669","timestamp_received_us":1761276595612473,"s3_object_key":"vitals/2025/10/24/03/29/CF1754318012-medexUID|4184d560-9ebd-4ce4-98b2-2f9cdb944789-ADM1146014669/1761276595612473.json"}
+2025-10-24 09:00:23,894 INFO PresenseProcessor [EventThread] ALLGS (POST https://staging-vitals.presense.icu/data) 201{"message":"Success - data accepted for processing","patient_id":"CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876","timestamp_received_us":1761276595892264,"s3_object_key":"vitals/2025/10/24/03/29/CF1754318012-medexUID|c6c46360-86c5-42fc-b80a-67957211075d-ADM1415375876/1761276595892264.json"}
+2025-10-24 09:00:27,041 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 09:00:27,072 INFO MSGLOG [EventThread] [AMCPR] Data Sent to API successfully with status: 201
+2025-10-24 09:00:27,121 INFO MSGLOG [EventThread] [ALDYL] Data Sent to API successfully with status: 201
+2025-10-24 09:00:27,496 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 09:00:31,153 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 09:00:31,199 INFO DataReceiver [main] Persisted admissionId for patch: AMORN
+2025-10-24 09:00:31,204 INFO DataReceiver [main] Persisted admissionId for patch: ALLGS
+2025-10-24 09:00:31,206 INFO DataReceiver [main] Persisted admissionId for patch: ALDYL
+2025-10-24 09:00:31,210 INFO DataReceiver [main] Persisted admissionId for patch: AMCPR
+2025-10-24 09:00:31,211 INFO DataReceiver [main] All patches running!! 
+2025-10-24 09:00:31,212 INFO DataReceiver [main] 4/4 patches have active socket connection
+2025-10-24 09:01:14,016 WARN c.l.c.w.ConfigurationManager [main] Instance configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\config.properties
+2025-10-24 09:01:14,019 INFO c.l.c.w.ConfigurationManager [main] Master configuration loaded from: C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\master.properties
+2025-10-24 09:01:14,033 INFO DataReceiver [main] Data streaming to presense for Apollo Mysuru Patches starting... -- no ECG.
+2025-10-24 09:01:14,188 INFO DataReceiver [main] Restarting running patches for instance: Apollo_MQTT_Client
+2025-10-24 09:01:14,219 INFO WSReceiverThread [main] [AMORN] Initialized with constructed patientRef: CF1754318012-medexUID|9eb596d6-5cfb-488f-ab46-584edc1dbcfe-ADM1609022764
+2025-10-24 09:01:14,224 INFO PresenseProcessor [main] Using test URL for API endpoint
+2025-10-24 09:01:14,224 INFO PresenseProcessor [main] Writing data to file is disabled
+2025-10-24 09:01:14,224 INFO ServiceManager [main] Service assigned: prediction with provider: presense
+2025-10-24 09:01:14,225 INFO WSReceiverThread [main] [ALLGS] Initialized with constructed patientRef: CF1754318012-medexUID|6a451dca-ce7c-4518-99c4-80e9495503ed-ADM1415375876
+2025-10-24 09:01:14,225 INFO ServiceManager [main] Service assigned: prediction with provider: presense
+2025-10-24 09:01:14,225 INFO WSReceiverThread [main] [ALDYL] Initialized with constructed patientRef: CF1754318012-medexUID|3137c90c-d024-4a08-b114-6d5013f4aa30-ADM1146014669
+2025-10-24 09:01:14,225 INFO WSReceiverThread [AMORN] Thread [AMORN] starting.
+2025-10-24 09:01:14,226 INFO ServiceManager [main] Service assigned: prediction with provider: presense
+2025-10-24 09:01:14,226 INFO WSReceiverThread [ALLGS] Thread [ALLGS] starting.
+2025-10-24 09:01:14,226 INFO WSReceiverThread [main] [AMCPR] Initialized with constructed patientRef: CF1754318012-medexUID|12997f06-7a5a-4ccb-831a-ec2751a70050-ADM326533415
+2025-10-24 09:01:14,227 INFO ServiceManager [main] Service assigned: prediction with provider: presense
+2025-10-24 09:01:14,227 INFO WSReceiverThread [ALDYL] Thread [ALDYL] starting.
+2025-10-24 09:01:14,230 INFO DataReceiver [main] Loaded Client ID from config: Apollo_MQTT_Client
+2025-10-24 09:01:14,229 INFO WSReceiverThread [AMCPR] Thread [AMCPR] starting.
+2025-10-24 09:01:14,236 INFO DataReceiver [main] MQTT Server: tcp://localhost:1883
+2025-10-24 09:01:14,636 INFO DataReceiver [main] MQTT Server Status: true
+2025-10-24 09:01:14,646 INFO DataReceiver [main] Subscription done.
+2025-10-24 09:01:14,653 INFO DataReceiver [main] Starting WebServer
+2025-10-24 09:01:14,841 INFO AuthHelper [ALLGS] Token Obtained
+2025-10-24 09:01:14,841 INFO AuthHelper [ALDYL] Token Obtained
+2025-10-24 09:01:14,841 INFO AuthHelper [AMCPR] Token Obtained
+2025-10-24 09:01:14,841 INFO AuthHelper [AMORN] Token Obtained
+2025-10-24 09:01:14,842 DEBUG WSReceiverThread [ALLGS] [ALLGS]: Token obtained
+2025-10-24 09:01:14,842 DEBUG WSReceiverThread [ALDYL] [ALDYL]: Token obtained
+2025-10-24 09:01:14,842 DEBUG WSReceiverThread [AMORN] [AMORN]: Token obtained
+2025-10-24 09:01:14,842 DEBUG WSReceiverThread [AMCPR] [AMCPR]: Token obtained
+2025-10-24 09:01:14,910 INFO JettyServer [main] WebServer started at port: 8093
+2025-10-24 09:01:15,374 INFO WSReceiverThread [EventThread] [AMORN]: socket connection established!
+2025-10-24 09:01:15,378 INFO WSReceiverThread [EventThread] [AMORN] socket emitted, socket.connected true
+2025-10-24 09:01:15,378 INFO WSReceiverThread [EventThread] [AMCPR]: socket connection established!
+2025-10-24 09:01:15,379 INFO WSReceiverThread [EventThread] [AMCPR] socket emitted, socket.connected true
+2025-10-24 09:01:15,384 INFO WSReceiverThread [EventThread] [ALLGS]: socket connection established!
+2025-10-24 09:01:15,385 INFO WSReceiverThread [EventThread] [ALLGS] socket emitted, socket.connected true
+2025-10-24 09:01:15,385 INFO WSReceiverThread [EventThread] [ALDYL]: socket connection established!
+2025-10-24 09:01:15,386 INFO WSReceiverThread [EventThread] [ALDYL] socket emitted, socket.connected true
+2025-10-24 09:01:48,096 INFO MSGLOG [EventThread] [AMCPR] Data Sent to API successfully with status: 201
+2025-10-24 09:01:48,097 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 09:01:48,121 INFO MSGLOG [EventThread] [ALDYL] Data Sent to API successfully with status: 201
+2025-10-24 09:01:48,617 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 09:02:14,913 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 09:02:14,961 INFO DataReceiver [main] All patches running!! 
+2025-10-24 09:02:14,961 INFO DataReceiver [main] 4/4 patches have active socket connection
+2025-10-24 09:02:19,545 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 09:02:19,558 INFO MSGLOG [EventThread] [AMCPR] Data Sent to API successfully with status: 201
+2025-10-24 09:02:19,627 INFO MSGLOG [EventThread] [ALDYL] Data Sent to API successfully with status: 201
+2025-10-24 09:02:20,025 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 09:02:51,036 INFO MSGLOG [EventThread] [AMORN] Data Sent to API successfully with status: 201
+2025-10-24 09:02:51,062 INFO MSGLOG [EventThread] [AMCPR] Data Sent to API successfully with status: 201
+2025-10-24 09:02:51,121 INFO MSGLOG [EventThread] [ALDYL] Data Sent to API successfully with status: 201
+2025-10-24 09:02:51,502 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 09:03:04,191 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_action_apollo, QoS: 2
+2025-10-24 09:03:04,196 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {patchId: AMORN, action: stop}
+2025-10-24 09:03:04,200 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] Interrupt [AMORN] sending discharge message as Stop is true
+2025-10-24 09:03:04,200 INFO WSReceiverThread [AMORN] Thread [AMORN] interrupted.
+2025-10-24 09:03:04,206 INFO WSReceiverThread [AMORN] Socket closed for patchId: AMORN
+2025-10-24 09:03:04,215 WARN WSReceiverThread [EventThread] PatchId: AMORN, socket disconnected!
+2025-10-24 09:03:04,462 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] [AMORN] Discharge message sent to API successfully with status: 201
+2025-10-24 09:03:04,463 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMORN] Discharge Message Created. Data: {"FacilityId":"CF1754318012","PatchId":"AMORN","source":"Arun-Local","BiosensorStatus":"Discharged","patientRef":"CF1754318012-medexUID|9eb596d6-5cfb-488f-ab46-584edc1dbcfe-ADM1609022764","TimeStamp":1761276784}
+2025-10-24 09:03:04,464 INFO WSThreadManager [MQTT Call: Apollo_MQTT_Client] Thread [AMORN] stopped
+2025-10-24 09:03:04,476 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_action_apollo, QoS: 2
+2025-10-24 09:03:04,479 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {patchId: AMCPR, action: stop}
+2025-10-24 09:03:04,479 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] Interrupt [AMCPR] sending discharge message as Stop is true
+2025-10-24 09:03:04,479 INFO WSReceiverThread [AMCPR] Thread [AMCPR] interrupted.
+2025-10-24 09:03:04,482 INFO WSReceiverThread [AMCPR] Socket closed for patchId: AMCPR
+2025-10-24 09:03:04,496 WARN WSReceiverThread [EventThread] PatchId: AMCPR, socket disconnected!
+2025-10-24 09:03:04,732 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] [AMCPR] Discharge message sent to API successfully with status: 201
+2025-10-24 09:03:04,732 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [AMCPR] Discharge Message Created. Data: {"FacilityId":"CF1754318012","PatchId":"AMCPR","source":"Arun-Local","BiosensorStatus":"Discharged","patientRef":"CF1754318012-medexUID|12997f06-7a5a-4ccb-831a-ec2751a70050-ADM326533415","TimeStamp":1761276784}
+2025-10-24 09:03:04,732 INFO WSThreadManager [MQTT Call: Apollo_MQTT_Client] Thread [AMCPR] stopped
+2025-10-24 09:03:04,745 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_action_apollo, QoS: 2
+2025-10-24 09:03:04,746 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {patchId: ALDYL, action: stop}
+2025-10-24 09:03:04,746 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] Interrupt [ALDYL] sending discharge message as Stop is true
+2025-10-24 09:03:04,746 INFO WSReceiverThread [ALDYL] Thread [ALDYL] interrupted.
+2025-10-24 09:03:04,747 INFO WSReceiverThread [ALDYL] Socket closed for patchId: ALDYL
+2025-10-24 09:03:04,748 WARN WSReceiverThread [EventThread] PatchId: ALDYL, socket disconnected!
+2025-10-24 09:03:04,953 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] [ALDYL] Discharge message sent to API successfully with status: 201
+2025-10-24 09:03:04,953 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALDYL] Discharge Message Created. Data: {"FacilityId":"CF1754318012","PatchId":"ALDYL","source":"Arun-Local","BiosensorStatus":"Discharged","patientRef":"CF1754318012-medexUID|3137c90c-d024-4a08-b114-6d5013f4aa30-ADM1146014669","TimeStamp":1761276784}
+2025-10-24 09:03:04,954 INFO WSThreadManager [MQTT Call: Apollo_MQTT_Client] Thread [ALDYL] stopped
+2025-10-24 09:03:14,976 DEBUG DataReceiver [main] Starting Housekeeping
+2025-10-24 09:03:14,986 INFO DataReceiver [main] All patches running!! 
+2025-10-24 09:03:14,989 INFO DataReceiver [main] 1/1 patches have active socket connection
+2025-10-24 09:03:22,999 INFO MSGLOG [EventThread] [ALLGS] Data Sent to API successfully with status: 201
+2025-10-24 09:03:36,581 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] topic: arrhythmia/svc_action_apollo, QoS: 2
+2025-10-24 09:03:36,582 INFO DataReceiver [MQTT Call: Apollo_MQTT_Client] message content: {patchId: ALLGS, action: stop}
+2025-10-24 09:03:36,582 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] Interrupt [ALLGS] sending discharge message as Stop is true
+2025-10-24 09:03:36,582 INFO WSReceiverThread [ALLGS] Thread [ALLGS] interrupted.
+2025-10-24 09:03:36,584 INFO WSReceiverThread [ALLGS] Socket closed for patchId: ALLGS
+2025-10-24 09:03:36,585 WARN WSReceiverThread [EventThread] PatchId: ALLGS, socket disconnected!
+2025-10-24 09:03:36,875 INFO PresenseProcessor [MQTT Call: Apollo_MQTT_Client] [ALLGS] Discharge message sent to API successfully with status: 201
+2025-10-24 09:03:36,878 INFO WSReceiverThread [MQTT Call: Apollo_MQTT_Client] [ALLGS] Discharge Message Created. Data: {"FacilityId":"CF1754318012","PatchId":"ALLGS","source":"Arun-Local","BiosensorStatus":"Discharged","patientRef":"CF1754318012-medexUID|6a451dca-ce7c-4518-99c4-80e9495503ed-ADM1415375876","TimeStamp":1761276816}
+2025-10-24 09:03:36,879 INFO WSThreadManager [MQTT Call: Apollo_MQTT_Client] Thread [ALLGS] stopped

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Appenders>
+       <Console name="LogToConsole" target="SYSTEM_OUT">
+           <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+       </Console>
+        <RollingFile name="LogToFile" fileName="logs/app.log"
+                     filePattern="logs/app-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+        <RollingFile name="LogToDump" fileName="logs/output.log"
+                     filePattern="logs/output-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.hetrogenous" level="debug" additivity="false">
+            <AppenderRef ref="LogToFile"/>
+        </Logger>
+        <Logger name="OUTPUT" level="debug" additivity="false">
+            <AppenderRef ref="LogToDump"/>
+        </Logger>
+        <Root level="debug">
+            <AppenderRef ref="LogToFile"/>
+           <AppenderRef ref="LogToConsole" level="${sys:logToConsoleLevel:-off}"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,32 @@
+{
+  "ews": {"ewsInfo": {
+    "Oxygen": [
+      false,
+      0
+    ],
+    "Consciousness": [
+      "Alert",
+      0
+    ],
+    "BODYTEMP": [
+      -1,
+      0
+    ]
+  }},
+  "PR": {},
+  "SPO2": {},
+  "SensorData": [],
+  "PatchId": "ANXLD",
+  "Gender": "male",
+  "PatientName": "Laxminarasiah Gundagani",
+  "patientRef": "CF946083021-IP2526000443-ADM1173241290",
+  "BedId": "GRP1277947929",
+  "AdmissionTime": "2025-04-14 20:24:08.0",
+  "TimeStamp": 1744790763248808,
+  "BP": {},
+  "FacilityId": "CF946083021",
+  "ArrythmiaData": [],
+  "BiosensorStatus": "Disconnected",
+  "Age": 41,
+  "Location": "10A-1012A"
+}

@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run DataReceiver",
+            "request": "launch",
+            "mainClass": "com.lsmed.connectors.wsReceiver.DataReceiver",
+            "vmArgs": [
+                "-Dconfig.file.path=C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\config.properties",
+                "-Dmaster.file.path=C:\\Users\\Lifesigns_T14\\OneDrive - LS DEVICES PRIVATE LIMITED\\Projects\\presense\\presenceApollo\\data_to_presense\\configFiles\\master.properties"
+            ]
+        }
+    ]
+}
