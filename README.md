@@ -43,69 +43,76 @@ You will need to create two configuration files. You can place them anywhere on 
 - `config.properties`: For instance-specific settings, like database paths.
 
 3. Configure Settings
-Based on an analysis of the source code, the following properties must be configured.
 
-#### `master.properties`
-This file should contain the URLs for the various services the application interacts with.
+#### `master.properties` (Common Configuration)
+
+This file contains the main, shared configuration for all application instances.
+
 ```properties
 # =================================================
-# MASTER CONFIGURATION (APOLLO)
+# MASTER CONFIGURATION (COMMON)
 # =================================================
 
 # --- API & Service Endpoints ---
 # WebSocket server URL for receiving patch data
-server.url=ws://your-websocket-server-url:port
+server.url=wss://lifesignals.co.in
 
 # Authentication service URL to get access tokens for WebSockets
-auth.url=https://your-auth-service.com/api/auth
+auth.url=https://dev2a.auth.lifesignals.com/auth/realms/lsdev/protocol/openid-connect/token
 
-# --- WebSocket Credentials ---
-# These credentials are used to obtain the authentication token for the WebSocket connection.
-fallback.user=your_username
-fallback.pass=your_password
+# API endpoint to fetch credentials for a specific facility.
+# The application appends the facilityId to this URL.
+cred.api = https://dev-apps.lifesigns.us/prediction/api/credentials/
+
+# API endpoint to fetch patch and patient details.
+# The application appends "?biosensorId=<patchId>" to this URL.
+details.api = https://dev-apps.lifesigns.us/prediction/api/pgroup-name?
+
+# --- Fallback Credentials ---
+# These are used by the WebSocket receiver if the credentials.api fails.
+fallback.user=sys.user.sc.apo_mys@lifesigns.us
+fallback.pass=LsSys*%@#usr
+
+# --- MQTT Broker Configuration ---
+# The full URL of your MQTT Broker (shared by all instances).
+mqtt.url=tcp://localhost:1883
+
+# --- SQLite Database Configuration ---
+# IMPORTANT: This is the full, absolute path to your SQLite database file.
+db.url=jdbc:sqlite:Apollo.db
+
+# --- General Application & Debugging Settings ---
+# A source identifier for this data relay instance.
+source=Arun-Local
+
+# Set to 'true' to use a staging/development endpoint instead of production.
+use.test.url=true
+
+# Set to 'true' to save processed JSON payloads to local files for inspection.
+write.to.file=false
+
+# Set to 'true' to enable verbose, real-time logging to the console.
+log.to.console=true
 ```
 
-#### `config.properties`
-This file should contain settings specific to your local machine or deployment instance.
+#### `config.properties` (Instance-Specific Configuration)
+
+This file contains settings that must be unique for each running instance of the application.
+
 ```properties
 # =================================================
 # INSTANCE-SPECIFIC CONFIGURATION
 # =================================================
 
-# --- MQTT Broker Configuration ---
-# The full URL of your MQTT Broker.
-mqtt.url=tcp://localhost:1883
+# --- Jetty Web Server ---
+# A unique port for the internal Jetty server to listen on.
+# Each instance of the application MUST have a different port.
+jetty.server.port=8093
 
+# --- MQTT Broker Configuration ---
 # A unique client ID for this instance of the data-receiver.
 # If left blank, a random UUID will be generated and saved back to this file.
-mqtt.client.id=presense-relay-apollo-01
-
-# --- SQLite Database Configuration ---
-# IMPORTANT: This is the full, absolute path to your SQLite database file.
-# The application will create the file if it does not exist.
-#
-# Example for Windows: db.url=jdbc:sqlite:C:/Users/YourUser/data/presense-relay-apollo.db
-# Example for Linux/macOS: db.url=jdbc:sqlite:/home/youruser/data/presense-relay-apollo.db
-db.url=jdbc:sqlite:C:/path/to/your/database/presense-relay-apollo.db
-
-# --- Jetty Web Server ---
-# Port for the internal Jetty server to listen on for status checks or other servlets.
-jetty.server.port=8088
-
-# --- General Application Settings ---
-# A source identifier for this data relay instance.
-source=presense-relay-apollo-01
-
-# --- Testing & Debugging ---
-# A boolean flag to determine whether to use a test URL for services.
-use.test.url=false
-
-# A boolean flag to enable or disable writing data to a file.
-write.to.file=false
-
-# Set to 'true' to enable detailed console logging.
-# This sets the logToConsoleLevel system property to DEBUG, otherwise it's OFF.
-log.to.console=true
+mqtt.client.id=c50a4771-ca4e-4967-9d6c-2683f8304893234
 ```
 
 ### Configuration Files
