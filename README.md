@@ -112,7 +112,7 @@ jetty.server.port=8093
 # --- MQTT Broker Configuration ---
 # A unique client ID for this instance of the data-receiver.
 # If left blank, a random UUID will be generated and saved back to this file.
-mqtt.client.id=c50a4771-ca4e-4967-9d6c-2683f8304893234
+mqtt.client.id=Apollo_MQTT_Client
 ```
 
 ### Configuration Files
