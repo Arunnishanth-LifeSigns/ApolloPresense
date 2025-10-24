@@ -109,7 +109,7 @@ log.to.console=true
 ```
 
 ### Testing and Debugging Features
-The `config.properties` (or `master.properties`) file provides several flags that are essential for testing and debugging:
+The `master.properties` file provides several flags that are essential for testing and debugging:
 
 -   **`log.to.console`**: Set this to `true` to enable verbose, real-time logging to the console. This is useful for monitoring the application's activity and diagnosing issues without needing to check log files.
 
