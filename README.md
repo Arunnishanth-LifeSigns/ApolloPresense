@@ -108,14 +108,33 @@ write.to.file=false
 log.to.console=true
 ```
 
-### Testing and Debugging Features
-The `master.properties` file provides several flags that are essential for testing and debugging:
+### Configuration Files
 
--   **`log.to.console`**: Set this to `true` to enable verbose, real-time logging to the console. This is useful for monitoring the application's activity and diagnosing issues without needing to check log files.
+The application's configuration is split between two files. This approach is necessary to allow for the deployment of multiple application instances, as a single instance is unable to handle more than 50-60 simultaneous WebSocket connections. The `master.properties` file contains configuration that is common to all instances, while `config.properties` is used for settings specific to each instance.
 
--   **`use.test.url`**: Set this to `true` to switch the destination of the processed data from the production endpoint (`https://vitals.presense.icu/data`) to a staging endpoint (`https://staging-vitals.presense.icu/data`). This allows for end-to-end testing without affecting production data.
+#### `master.properties`
+This file holds the primary configuration for the application, including endpoints, credentials, and debugging flags.
 
--   **`write.to.file`**: Set this to `true` to save the final processed JSON payloads to local files. Each file is named in the format `<patchId>_<timestamp>.json` and is saved in the application's root directory. This is invaluable for inspecting the exact data being sent to the API.
+-   **`db.url`**: The JDBC URL for the SQLite database. (e.g., `jdbc:sqlite:Apollo.db`)
+-   **`mqtt.url`**: The URL of the MQTT broker. (e.g., `tcp://localhost:1883`)
+-   **`server.url`**: The WebSocket server URL for receiving patch data. (e.g., `wss://lifesignals.co.in`)
+-   **`auth.url`**: The authentication service URL to get access tokens.
+-   **`cred.api`**: The API endpoint for credentials.
+-   **`details.api`**: The API endpoint for fetching pgroup names.
+-   **`fallback.user`**: The fallback username for authentication.
+-   **`fallback.pass`**: The fallback password for authentication.
+-   **`source`**: A source identifier for this data relay instance.
+
+##### Debugging Flags in `master.properties`
+-   **`log.to.console`**: Set to `true` to enable verbose, real-time logging to the console.
+-   **`use.test.url`**: A boolean flag to determine whether to use a test URL for services.
+-   **`write.to.file`**: Set to `true` to save the final processed JSON payloads to local files.
+
+#### `config.properties`
+This file contains settings that are specific to a particular instance of the application.
+
+-   **`jetty.server.port`**: The port for the internal Jetty server. (e.g., `8093`)
+-   **`mqtt.client.id`**: A unique client ID for this instance of the data-receiver. (e.g., `Apollo_MQTT_Client`)
 
 🚀 Building and Running
 
