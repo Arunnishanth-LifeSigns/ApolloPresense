@@ -24,7 +24,7 @@ The application is built with Maven and is designed to be a long-running, resili
 Before you begin, ensure you have the following software installed on your system:
 - Java Development Kit (JDK): Version 11 or higher.
 - Apache Maven: Version 3.6 or higher.
-- MQTT Broker: An active MQTT Broker (e.g., Mosquitto, HiveMQ).
+- MQTT Broker: An active MQTT broker (e.g., Mosquitto, HiveMQ).
 - Git: For cloning the repository.
 
 🛠️ Installation and Setup
@@ -96,17 +96,26 @@ jetty.server.port=8088
 # A source identifier for this data relay instance.
 source=presense-relay-apollo-01
 
+# --- Testing & Debugging ---
 # A boolean flag to determine whether to use a test URL for services.
 use.test.url=false
 
 # A boolean flag to enable or disable writing data to a file.
 write.to.file=false
 
-# --- Logging ---
 # Set to 'true' to enable detailed console logging.
 # This sets the logToConsoleLevel system property to DEBUG, otherwise it's OFF.
 log.to.console=true
 ```
+
+### Testing and Debugging Features
+The `config.properties` (or `master.properties`) file provides several flags that are essential for testing and debugging:
+
+-   **`log.to.console`**: Set this to `true` to enable verbose, real-time logging to the console. This is useful for monitoring the application's activity and diagnosing issues without needing to check log files.
+
+-   **`use.test.url`**: Set this to `true` to switch the destination of the processed data from the production endpoint (`https://vitals.presense.icu/data`) to a staging endpoint (`https://staging-vitals.presense.icu/data`). This allows for end-to-end testing without affecting production data.
+
+-   **`write.to.file`**: Set this to `true` to save the final processed JSON payloads to local files. Each file is named in the format `<patchId>_<timestamp>.json` and is saved in the application's root directory. This is invaluable for inspecting the exact data being sent to the API.
 
 🚀 Building and Running
 
